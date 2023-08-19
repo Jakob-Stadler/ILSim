@@ -1,0 +1,11 @@
+.vscode/
+.venv/
+venv*/
+build/
+dist/
+__pycache__/
+examples/
+.pytest_cache/
+.coverage
+cov.xml
+htmlcov/

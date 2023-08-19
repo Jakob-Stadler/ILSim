@@ -1,0 +1,54 @@
+{
+  "host": "localhost",
+  "port": 9999,
+  "sensors": [
+    {
+      "type": "IL-030",
+      "overrides": {
+        "randomized": true,
+        "randomized_upper_limit": 3.0,
+        "randomized_lower_limit": -3.0
+      }
+    },
+    {
+      "type": "IL-030",
+      "overrides": {
+        "randomized": true,
+        "randomized_upper_limit": 3.0,
+        "randomized_lower_limit": -3.0
+      }
+    },
+    {
+      "type": "IL-030",
+      "overrides": {
+        "randomized": true,
+        "randomized_upper_limit": 3.0,
+        "randomized_lower_limit": -3.0
+      }
+    },
+    {
+      "type": "IL-030",
+      "overrides": {
+        "randomized": true,
+        "randomized_upper_limit": 3.0,
+        "randomized_lower_limit": -3.0
+      }
+    },
+    {
+      "type": "IL-030",
+      "overrides": {
+        "randomized": true,
+        "randomized_upper_limit": 3.0,
+        "randomized_lower_limit": -3.0
+      }
+    },
+    {
+      "type": "IL-030",
+      "overrides": {
+        "randomized": true,
+        "randomized_upper_limit": 3.0,
+        "randomized_lower_limit": -3.0
+      }
+    }
+  ]
+}
