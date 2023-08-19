@@ -2,7 +2,7 @@
 
 ILSim is a software simulation of Keyence [IL-Sensors](https://www.keyence.com/products/measure/laser-1d/il/) communicating through a [DL-EN1 communication unit](https://www.keyence.com/products/sensor/network-communication/dl/) written in pure Python without external depenencies.
 
-Its intended use is speeding up development of application software which intends to use IL sensors through a normal TCP/IP ethernet network connection. For an example of such a use case, please check out [ILInspect](../../../../ILInspect).
+Its intended use is speeding up development of application software which intends to use IL sensors through a normal TCP/IP ethernet network connection. For an example of such a use case, please check out [ILInspect](https://github.com/Jakob-Stadler/ILInspect).
 
 ILSim allows rapid and continous integration tests early in the production pipeline of application software by eliminating the need to connect to real hardware to verify correct communication protocol handling. Since its completely software controlled, testing with different internal sensor states is as easy as loading a prepared configuration file. No need to fiddle with small buttons on the physical device or risk damaging the sensor hardware to test rare error conditions like overcurrent.
 
@@ -103,5 +103,5 @@ Terminal 2:
 $ python ./server.py ./config2.json
 ```
 
-Now you can use either the included `client.py` to manually communicate with the sensors or use the default configuration of [ILInspect](../../../../ILInspect) to locally connect to the sensors over port 9999 and 9998.
+Now you can use either the included `client.py` to manually communicate with the sensors or use the default configuration of [ILInspect](https://github.com/Jakob-Stadler/ILInspect) to locally connect to the sensors over port 9999 and 9998.
 
